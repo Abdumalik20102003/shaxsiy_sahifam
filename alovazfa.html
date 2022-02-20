@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+
+</head>
+<body>
+    <table border="5" bordercolor="blue">
+            <th>Aloqa uchun</th>
+    <tr>
+        <td>
+    <br action="">
+        <label for="t1">ismingiz</label>
+        <br>
+        <input 
+        type="text" 
+        id="t1" 
+        size="60" 
+        placeholder="ismingizni yozing" 
+        spellcheck="true"
+        maxlength="30"
+        minlength="3"
+        required
+        list="d1"
+        />
+        <datalist id="d1">
+            <option value="Abduvakil"></option>
+            <option value="Javohir"></option>
+            <option value="SHag'zod"></option>
+            <option value="Azizjon"></option>
+            <option value="Sayfulla xo'ja"></option>
+            <option value="Abdumalik"></option>
+            <option value="Abdurasul"></option>
+        </datalist>
+        <br/>
+        <br/>
+        <label for="email1">pochta</label>
+        <br>
+        <input type="email" size="60" id="email1"/> 
+        <fieldset>
+        <br/>
+        <label for="tel1">raqamingiz</label>
+        <br/>
+        <input type="tel" 
+        size="57"
+        pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" 
+        placeholder="97-123-45-67"
+        id="tel1"
+        />
+        <br/>
+            <br/>
+            <legend>Jinsingiz</legend>
+        <input type="radio" id="r1" name="alex" checked />
+        <label for="r1">erkak</label>
+        <input type="radio" id="r1" name="alex"/>
+        <label for="r1">ayol</label>
+        </fieldset>
+        <br/>
+        <fieldset>
+        <legend>Qiziqishingiz</legend>
+        <input type="radio" id="r1" name="lexa" checked/>
+        <label for="r1">IT</label>
+        <input type="radio" id="r1" name="lexa"/>
+        <label for="r1">Marketing</label>
+        <input type="radio" id="r1" name="lexa"/>
+        <label for="r1">Iqtisod</label>
+        </fieldset>
+        <br/>
+        <label for="file1">Tug'ilgan sana</label>
+        <input type="date" id="file1"/>
+        <br/>
+        <br/>
+        <label for="xx7">parolni kiriting</label>
+        <input type="password" placeholder="12345678" id="xx7" >
+        <br/>
+        <br/>
+        <label for="ext1">xabar</label>
+        <br/>
+        <input type="text" id="ext1" size="60"/>
+        <br/>
+        <br>
+        <input type="submit" value="saqlash" formaction="index.html">
+    </form>
+</td>
+</tr>
+</table>
+</body>
+</html>

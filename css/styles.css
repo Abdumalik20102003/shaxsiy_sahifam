@@ -1,0 +1,39 @@
+img {
+  border-block-style: 100%;
+  border-radius: 45%;
+  border-color: mediumblue;
+  border-style: solid;
+}
+hr {
+  background-color: none;
+  height: 2px;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  border-style: none;
+  border-top: dotted mediumblue 6px;
+  width: 70px;
+}
+body {
+  background-color: rgb(157, 186, 197);
+}
+h2 {
+  color: mediumblue;
+}
+table {
+  border-style: inset;
+  border-width: 1px;
+  border-color: mediumblue;
+}
+input {
+  border-style: inset;
+  border-width: 1px;
+  border-color: mediumblue;
+}
+textarea {
+  border-style: inset;
+  border-width: 1px;
+  border-color: mediumblue;
+}

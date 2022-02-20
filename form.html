@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br action="">
+        <label for="t1">ismingiz</label>
+        <input 
+        type="text" 
+        id="t1" 
+        size="60" 
+        placeholder="ismingizni yozing" 
+        spellcheck="true"
+        maxlength="30"
+        minlength="3"
+        required
+        list="d1"
+        />
+        <datalist id="d1">
+            <option value="Abduvakil"></option>
+            <option value="Javohir"></option>
+            <option value="SHag'zod"></option>
+            <option value="Azizjon"></option>
+            <option value="Sayfulla xo'ja"></option>
+            <option value="Abdumalik"></option>
+            <option value="Abdurasul"></option>
+        </datalist>
+        <br/>
+        <br/>
+        <br/>
+        <fieldset>
+            <legend>bittasini tanlang</legend>
+        <input type="radio" id="r1" name="alex" checked/>
+        <label for="r1">telegram</label>
+        <input type="radio" id="r1" name="alex"/>
+        <label for="r1">elektron pochta</label>
+        </fieldset>
+        <br/>
+        <br/>
+        <label for="email1">pochta</label>
+        <input type="email" id="email1"/> 
+        <br/>
+        <br/>
+        <label for="file1">faylni tanlang</label>
+        <input type="file" id="file1"/>
+        <br/>
+        <br/>
+        <label for="xx7">parolni kiriting</label>
+        <input type="password" placeholder="12345678" id="xx7" >
+        <br/>
+        <br/>
+        <input type="range"/>
+        <br/>
+        <br/>
+        <input type="tel" pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="97-123-45-67"/>
+        <br/>
+        <br/>
+        <input type="submit" value="saqlash" formaction="index.html">
+    </form>
+</body>
+</html>
